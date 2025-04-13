@@ -1,0 +1,42 @@
+baseURL = 'https://deadprogrammers.club/'
+languageCode = 'en-us'
+title = 'd∃adpr∅gramm∑rssoc!∃ty'
+theme = 'archie'
+copyright = "© immortalp0ny"
+pagination.pagerSize = 4
+
+[params]
+favicon = "https://img.icons8.com/officel/16/000000/chevron-right.png"
+mode = "auto"
+useCDN = true
+subtitle = "Blog about RE/VR/ED from a human being who is bad at giving up"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/immortalp0ny/"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://x.com/immortalp0ny"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
