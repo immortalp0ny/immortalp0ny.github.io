@@ -5,6 +5,10 @@ theme = 'archie'
 copyright = "© immortalp0ny"
 pagination.pagerSize = 4
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
 favicon = "https://img.icons8.com/officel/16/000000/chevron-right.png"
 mode = "auto"
